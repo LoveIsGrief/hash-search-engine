@@ -1,0 +1,5 @@
+/* CSS declarations go here */
+.upload .file-drop-area {
+    background-image: url("./images/upload.svg");
+    color: gold;
+}

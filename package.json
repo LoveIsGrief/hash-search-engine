@@ -1,0 +1,15 @@
+{
+  "name": "hello",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-meteor": "^1.3.12",
+    "babel-runtime": "^6.20.0",
+    "jshashes": "^1.0.7",
+    "meteor-node-stubs": "~0.2.4",
+    "ng-file-upload": "^12.2.13"
+  }
+}
