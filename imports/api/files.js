@@ -27,6 +27,9 @@ export const Files = new FilesCollection({
         let foundHashes = Hashes.find({hash: hash});
         if (foundHashes.count() < 1) {
             // TODO Hash the file multiple times in MD5 and others
+            // TODO Decide on the DB structure in order to store multiple hashes and links per file all while
+            // TODO  maintaing a fast search
+            // Maybe Hashes should just be a hash with a reference to the real object with a data structure TBD
             Hashes.insert({
                 hash: hash,
                 names: [file.name],
